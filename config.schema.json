@@ -1,0 +1,42 @@
+{
+  "pluginAlias": "homebridge-lightify2",
+  "pluginType": "platform",
+  "singular": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "title": "Name",
+        "type": "string",
+        "default": "Lightfy",
+        "required": true
+      },
+       "bridge_ip": {
+          "title": "Bridge IP Address",
+          "required": true,
+          "type": "string"
+        },
+         "showGroups": {
+          "title": "Show Groups",
+          "type": "string",
+          "typeahead": {
+                  "source": [
+                    "True",
+                    "False"
+                  ]
+                }
+        },
+         "hideNodes": {
+          "title": "Hide Node",
+          "type": "string",
+          "typeahead": {
+                  "source": [
+                    "True",
+                    "False"
+                  ]
+                }
+        }
+        
+    }
+  }
+}
