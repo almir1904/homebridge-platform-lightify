@@ -19,7 +19,7 @@ module.exports = function(homebridge) {
     util.inherits(Lightbulb, Service);
     Lightbulb.UUID = '00000043-0000-1000-8000-0026BB765291';
 
-    homebridge.registerPlatform("homebridge-lightify", "Lightify", LightifyPlatform);
+    homebridge.registerPlatform("homebridge-lightify2", "Lightify", LightifyPlatform);
 }
 
 function HSVtoRGB(h, s, v) {
