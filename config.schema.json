@@ -20,9 +20,9 @@
           "title": "Show Groups",
           "type": "string",
           "typeahead": {
-                  "source": [
-                    "True",
-                    "False"
+                  "value": [
+                    "true",
+                    "false"
                   ]
                 }
         },
@@ -30,9 +30,9 @@
           "title": "Hide Node",
           "type": "string",
           "typeahead": {
-                  "source": [
-                    "True",
-                    "False"
+                  "value": [
+                    "true",
+                    "false"
                   ]
                 }
         }
