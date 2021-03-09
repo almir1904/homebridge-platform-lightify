@@ -18,7 +18,7 @@ module.exports = function(homebridge) {
     };
     util.inherits(Lightbulb, Service);
     Lightbulb.UUID = '00000043-0000-1000-8000-0026BB765291';
-
+	
     homebridge.registerPlatform("homebridge-lightify2", "Lightify2", LightifyPlatform);
 }
 
