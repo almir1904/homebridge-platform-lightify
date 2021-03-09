@@ -2,11 +2,11 @@
 This is an OSRAM Lightify plugin for [homebridge](https://github.com/nfarina/homebridge).
 
 ## Setup
-1. Add via `npm install -g homebridge-platform-lightify`
+1. Add via `npm install -g --unsafe-perm https://github.com/almir1904/homebridge-platform-lightify.git`
 2. Add to the homebridge config.json in the `platforms` section
 ```json
 {
-  "platform": "Lightify",
+  "platform": "Lightify2",
   "bridge_ip": "x.x.x.x",
   "name" : "Lightify",
   "showGroups" : true,
